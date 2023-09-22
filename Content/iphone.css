@@ -1,0 +1,150 @@
+﻿body {
+  
+}
+
+h2 { font-size:2em }
+
+.lead { font-size:1.3em }
+
+img#ThePinkHouseEstoril {
+    width: 50%
+}
+
+.card#InBrief, img.upImg { 
+    margin-top:2em
+}
+
+img.blue_flag {
+    width: 1.5em
+}
+
+.text-center.text-lg-left {
+    text-align: center !important
+}
+
+
+#InTheArea hr, #TakeATour hr {
+    visibility: visible;
+    width: 50%;
+    margin: 1em auto 2em
+}
+
+p.caption {
+    text-align:center!important;
+    font-style:italic;
+    font-size:0.8em
+}
+
+
+.rounded-circle {
+    width:80%;
+    height:80%;
+    margin:1em auto;
+}
+
+
+.offcanvas {
+    background: #c49eb8;
+    color: #FFF;
+    padding: 0;    
+}
+
+.offcanvas, .offcanvas.show {
+    width: 60%
+}
+
+.offcanvas-header {
+    padding-bottom: 0;
+    color: #FFF
+}
+
+
+.offcanvas h5, .offcanvas a {
+    color: #FFF;
+    line-height:1em
+}
+
+.offcanvas a:hover, .offcanvas a:visited {
+    color: #EAEAEA
+}
+
+.offcanvas-body {
+    padding-top: 0
+}
+
+.offcanvas-body ul li.nav-item {
+    border-top: 1px solid #eaeaea
+}
+
+.offcanvas-body ul li.nav-item:first-child {
+    border-top: none
+}
+
+.offcanvas .dropdown-menu.show {
+    background: #d1677b;
+}
+
+    .offcanvas .dropdown-menu.show .dropdown-item {
+        /*font-size:1em*/
+    }
+
+.offcanvas .dropdown {
+    padding: 0.5em 0
+}
+
+.offcanvas .navbar {
+    background: none
+}
+
+
+.btn#btnTrigger {
+    margin:0;
+    position:fixed;
+    right:1em;
+    top:0.5em
+}
+
+.btn#btnTrigger:hover {
+    background: #eaeaea;
+}
+
+.bi.bi-list {
+    font-size: 1em
+}
+
+
+.btn-close {
+    font-family: 'Special Elite', cursive;
+}
+
+p.testimony {
+    font-size: 1.1em;
+}
+
+input[type="submit"], input[type="button"], button {
+    color:#000;
+    font-size: 1em;
+}
+
+footer {
+    font-size: 0.8em
+}
+
+#Left {
+    text-align:left
+}
+
+#Right {
+    text-align: right
+}
+
+
+
+
+
+
+/* Photo gallery */
+.example-image {
+    width: 30%;
+    padding: 0 0.2em 0.8em 0
+}

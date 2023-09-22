@@ -1,0 +1,32 @@
+﻿h2 { font-size:2.5em }
+
+.lead { font-size:1.3em }
+
+img#ThePinkHouseEstoril {
+    width: 30%
+}
+
+.card#InBrief, img.upImg { 
+    margin-top:0
+}
+
+img.blue_flag {
+    width: 1.5em
+}
+
+.text-center.text-lg-left {
+    text-align: center !important
+}
+
+
+#InTheArea hr, #TakeATour hr {
+    visibility: visible;
+    width: 50%;
+    margin: 2em auto
+}
+
+p.caption {
+    text-align:center!important;
+    font-style:italic;
+    font-size:0.8em
+}

@@ -1,0 +1,69 @@
+﻿body {
+}
+
+h2 {
+    font-size: 2em
+}
+
+.lead {
+    font-size: 1.3em
+}
+
+img#ThePinkHouseEstoril {
+    width: 20%
+}
+
+.card#InBrief, img.upImg {
+    margin-top: 0
+}
+
+img.blue_flag {
+    width: 1.5em
+}
+
+.text-center.text-lg-left {
+    text-align: center !important
+}
+
+
+#InTheArea hr, #TakeATour hr {
+    visibility: visible;
+    width: 100%;
+    margin: 1em auto 2em
+}
+
+input[type="submit"], input[type="button"], button {
+    color: #000;
+    font-size:1em
+}
+
+p.caption {
+    text-align: center !important;
+    font-style: italic;
+    font-size: 0.8em
+}
+
+
+.btn#btnTrigger {
+    margin: 0;
+    position: fixed;
+    right: 1em;
+    top: 1em
+}
+
+    .btn#btnTrigger:hover {
+        background: #eaeaea;
+    }
+
+.bi.bi-list {
+    font-size: 1em
+}
+
+
+
+
+/* Photo gallery */
+.example-image {
+    width: 18%;
+    padding: 0 0.2em 0.7em 0
+}
