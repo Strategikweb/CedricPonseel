@@ -1,4 +1,9 @@
 ﻿body {
+    font-size:0.8em
+}
+
+h1 {
+    font-size: 3em
 }
 
 h2 {
@@ -9,27 +14,8 @@ h2 {
     font-size: 1.3em
 }
 
-img#ThePinkHouseEstoril {
-    width: 20%
-}
-
-.card#InBrief, img.upImg {
-    margin-top: 0
-}
-
-img.blue_flag {
-    width: 1.5em
-}
-
 .text-center.text-lg-left {
     text-align: center !important
-}
-
-
-#InTheArea hr, #TakeATour hr {
-    visibility: visible;
-    width: 100%;
-    margin: 1em auto 2em
 }
 
 input[type="submit"], input[type="button"], button {
@@ -37,33 +23,66 @@ input[type="submit"], input[type="button"], button {
     font-size:1em
 }
 
-p.caption {
-    text-align: center !important;
-    font-style: italic;
-    font-size: 0.8em
+hr {
+    margin:0.8em 0
 }
 
-
-.btn#btnTrigger {
-    margin: 0;
-    position: fixed;
-    right: 1em;
-    top: 1em
+#Keyfacts .bi {
+    font-size: 5em;
 }
 
-    .btn#btnTrigger:hover {
-        background: #eaeaea;
-    }
-
-.bi.bi-list {
-    font-size: 1em
+footer {
+    margin-top:0
 }
 
+#Left {
+    text-align: left
+}
 
+.list-group-item {
+    padding: 0.2em 0;
+}
 
+.card {
+    border: none;
+    border-radius: 0
+}
 
-/* Photo gallery */
-.example-image {
-    width: 18%;
-    padding: 0 0.2em 0.7em 0
+#HomeUp {
+    margin-top: -5em;
+    padding: 1em;
+    border: 1px solid #CC3;
+    border-radius: 0
+}
+
+#HomeUp .card-body {
+    padding: 1em !important
+}
+
+.container-fluid.darkColour {
+    padding-bottom: 3em;
+}
+
+.nav-link {
+    padding: 0.5em
+}
+
+.spaceTopXXL {
+    margin-top:2em
+}
+
+.photoCircle {
+    margin:3em
+}
+
+.infoCircle, .infoCircleFluid {
+    height: 23em;
+    width: 23em;
+    margin:0
+}
+
+.infoCircle {
+    height: 35em;
+    width: 35em;
+    margin: -3em 2em 0 -10em
 }

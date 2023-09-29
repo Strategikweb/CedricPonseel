@@ -1,32 +1,44 @@
-﻿body {
-  
+﻿body {  
+   
 }
 
-h2 { font-size:2em }
+.container {
+    padding:1.5em
+}
+
+h1 {
+    font-size: 2em
+}
+
+h1.logotype {
+    border:none
+}
+
+h2 { font-size:2em; margin-top:0.6em }
+
+h3 {
+    margin-top: 2em;
+    font-size:1.4em
+}
 
 .lead { font-size:1.3em }
 
-img#ThePinkHouseEstoril {
-    width: 50%
+.card { 
+    border:none;
+    border-radius:0
 }
 
 .card#InBrief, img.upImg { 
     margin-top:2em
 }
 
-img.blue_flag {
-    width: 1.5em
+.card.lowOpacity {
+    padding: 0.5em;
+    margin:initial;
 }
 
 .text-center.text-lg-left {
     text-align: center !important
-}
-
-
-#InTheArea hr, #TakeATour hr {
-    visibility: visible;
-    width: 50%;
-    margin: 1em auto 2em
 }
 
 p.caption {
@@ -35,18 +47,132 @@ p.caption {
     font-size:0.8em
 }
 
+.photoCircle {
+    margin: 3em 0 0 -6em;
+}
+.bi.bi-list {
+    font-size: 1em
+}
 
-.rounded-circle {
-    width:80%;
-    height:80%;
-    margin:1em auto;
+.btn-close {
+    font-family: 'Special Elite', cursive;
+}
+
+p.testimony {
+    font-size: 1.1em;
+}
+
+input[type="submit"], input[type="button"], button {
+    color:#000;
+    font-size: 1em;
+}
+
+footer {
+    font-size: 0.8em;
+    margin-top:0
+}
+
+#Left {
+    text-align:left
+}
+
+#Right {
+    text-align: right
+}
+
+.indent {
+    padding-left: 1em;
+}
+
+h3.spaceTopXXL {
+    margin-top:2em
+}
+
+.list-group-item {
+    padding:0.2em 0; 
+}
+
+.infoCircle {
+    margin:3em -5em 1em -5em
+}
+
+#HomeUp {
+    margin-top: -5em;
+    padding:1em;
+    border: 1px solid #CC3;
+    border-radius: 0
+}
+
+#HomeUp .card-body {
+    padding:1em!important
 }
 
 
+#HomeUpMedium {
+    margin-top: -3em;
+    
+}
+
+#Keyfacts h5 {
+    margin-top: 0; padding-top:0
+}
+
+img.topCircle {
+    margin-top: -5em;
+}
+
+
+
+
+
+
+
+
+.btn#btnTrigger {
+    background: #FFF;
+    color: #2c8b87;
+    border: 2px solid #2c8b87;
+    border-radius: 0;
+    margin-left: 0;
+    z-index: 500;
+}
+
+
+
+/*OFF canvas*/
+@media (max-width: 991.98px) {
+    .offcanvas-collapse {
+        position: fixed;
+        top: 56px; /* Height of navbar */
+        bottom: 0;
+        left: 100%;
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        overflow-y: auto;
+        visibility: hidden;
+        background-color: #CC3;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+    }
+
+    .offcanvas-collapse.open {
+        visibility: visible;
+        transform: translateX(-100%);
+    }
+}
+
+h5.offcanvas-title {
+    font-size: 1.5em
+}
+
+.offcanvas a {
+    padding:0.8em 0
+}
+
 .offcanvas {
-    background: #c49eb8;
+    background: #2c8b87;
     color: #FFF;
-    padding: 0;    
+    padding: 0;
 }
 
 .offcanvas, .offcanvas.show {
@@ -58,10 +184,11 @@ p.caption {
     color: #FFF
 }
 
+.offcanvas .nav-link { border-left: none!important }
 
 .offcanvas h5, .offcanvas a {
     color: #FFF;
-    line-height:1em
+    line-height: 1em
 }
 
 .offcanvas a:hover, .offcanvas a:visited {
@@ -84,9 +211,9 @@ p.caption {
     background: #d1677b;
 }
 
-    .offcanvas .dropdown-menu.show .dropdown-item {
-        /*font-size:1em*/
-    }
+.offcanvas .dropdown-menu.show .dropdown-item {
+    /*font-size:1em*/
+}
 
 .offcanvas .dropdown {
     padding: 0.5em 0
@@ -96,55 +223,6 @@ p.caption {
     background: none
 }
 
-
-.btn#btnTrigger {
-    margin:0;
-    position:fixed;
-    right:1em;
-    top:0.5em
-}
-
-.btn#btnTrigger:hover {
-    background: #eaeaea;
-}
-
-.bi.bi-list {
-    font-size: 1em
-}
-
-
-.btn-close {
-    font-family: 'Special Elite', cursive;
-}
-
-p.testimony {
-    font-size: 1.1em;
-}
-
-input[type="submit"], input[type="button"], button {
-    color:#000;
-    font-size: 1em;
-}
-
-footer {
-    font-size: 0.8em
-}
-
-#Left {
-    text-align:left
-}
-
-#Right {
-    text-align: right
-}
-
-
-
-
-
-
-/* Photo gallery */
-.example-image {
-    width: 30%;
-    padding: 0 0.2em 0.8em 0
+.offcanvas ul.navbar-nav li:first-child {
+    margin-top: 5em
 }
