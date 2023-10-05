@@ -33,9 +33,61 @@
 </head>
 <body>
 
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNav" data-bs-scroll="true" aria-labelledby="offcanvasNavLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavLabel">Cédric Ponseel</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" tabindex="-1"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html" title="Accueil du site internet de Cédric Ponseel, coach sportif"><i class="bi bi-house-door-fill"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="activitessportives.html" title="Les activités sportives proposées par Cédric Ponseel, coach sportif">Activités sportives</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tarifs.html" title="Tarif des activités sportives proposées par Cédric Ponseel, coach sportif">Tarifs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="apropos.html" title="A propos de Cédric Ponseel, coach sportif">A propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="faq.html" title="Les questions posées à Cédric Ponseel, coach sportif">Questions fréquentes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" title="Contacter Cédric Ponseel, coach sportif">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
     <div class="container animated fadeInLeft">
-        <div class="row justify-content-center">
+
+        <!-- Nav button -->
+        <div class="row d-sm-none">
+            <div class="col-12">
+                <button class="btn btn-outline-primary position-fixed" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNav" role="button" id="btnTrigger" aria-controls="offcanvasNav" title="View menu">
+                    <i class="bi bi-list"></i>
+                </button>
+            </div>
+        </div>
+        <!-- End -->
+
+        <!-- Desktop -->
+        <div class="row justify-content-center d-none d-sm-block">
             <div class="col d-flex align-items-center justify-content-center">
+                <h1 class="logotype my-sm-5 my-lg-5 w-40">
+                    Cédric Ponseel
+                    <span class="text-muted">Coach sportif</span>
+                </h1>
+            </div>
+        </div>
+
+        <!-- Mobile -->
+        <div class="row d-sm-none">
+            <div class="col align-self-end pe-0">
                 <h1 class="logotype my-lg-5 w-40">
                     Cédric Ponseel
                     <span class="text-muted">Coach sportif</span>
@@ -43,11 +95,11 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-12 d-flex align-items-center justify-content-center">
+        <div class="row d-none d-sm-block">
+            <div class="col-12 w-100 d-flex align-items-center justify-content-center">
                 <ul class="nav mb-lg-3">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html" title="Accueil du site internet de Cédric Ponseel, coach sportif"><i class="bi bi-house-door-fill"></i></a>
+                        <a class="nav-link active" aria-current="page" href="index.html" title="Accueil du site internet de Cédric Ponseel, coach sportif"><i class="bi bi-house-door-fill"></i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="activitessportives.html" title="Les activités sportives proposées par Cédric Ponseel, coach sportif">Activités sportives</a>
@@ -56,7 +108,7 @@
                         <a class="nav-link" href="tarifs.html" title="Tarif des activités sportives proposées par Cédric Ponseel, coach sportif">Tarifs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="apropos.html" title="A propos de Cédric Ponseel, coach sportif">A propos</a>
+                        <a class="nav-link" href="apropos.html" title="A propos de Cédric Ponseel, coach sportif">A propos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="faq.html" title="Les questions posées à Cédric Ponseel, coach sportif">Questions fréquentes</a>
@@ -70,173 +122,174 @@
     </div>
 
     <div class="container-fluid topBanner animated fadeInRight" id="BannerTop">
-        <div class="row">
-            <div class="col-12 px-lg-0">
-                <img src="Content/img/cedric_ponseel_coach_sportif_marche_nordique.jpg" class="img-fluid" />
-                <img src="Content/img/cedric_ponseel_coach_sportif_stretching.jpg" class="rounded-circle d-none d-md-block" />
-            </div>
-        </div>
-    </div>
-
-    <div class="container animated fadeInLeft">
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-sm-5 my-lg-5">
-                <h2>A propos de Cédric Ponseel, Coach sportif</h2>
-                <p class="lead">
-                    Depuis toujours, le sport est ma passion: Badminton, handball, basket, tennis de table, athlétisme en compétition... Je mets à votre service mon sérieux et mon expertise sportive dans l'accompagnement sur-mesure.
-                </p>
-            </div>
-        </div>
-        <div class="row justify-content-md-center">
-            <div class="col-12 col-sm-12 col-md-5 col-lg-5">
-                <h3 class="mt-sm-3 pt-lg-0 mt-lg-0">Mon parcours</h3>
-                <div class="indent">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem et tortor consequat id porta nibh.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem et tortor consequat id porta nibh.
-                    </p>
-                </div>
-                <h3 class="pt-lg-0 mt-lg-5">Mon expérience</h3>
-                <div class="indent">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem et tortor consequat id porta nibh.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem et tortor consequat id porta nibh.
-                    </p>
-                </div>
-                <h3 class="pt-lg-0 mt-lg-5">Mon accompagnement</h3>
-                <div class="indent">
-                    <p>
-                        Mes séances de coaching vous garantissent un accompagnement personnalisé et adapté à vos besoins, conditions physiques et objectifs.
-                    </p>
-                    <p>
-                        Mon expérience me permet de vous proposer une préparation sérieuse et adaptée à votre âge, limitant ainsi les blessures potentiellement dûes à un entraînement inapproprié.
-                    </p>
-                    <p>
-                        J'accompagne les sportifs de tous âges et de toutes conditions physiques, tout en m'adaptant à vos disponibilités.
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-auto"></div>
-            <div class="col-12 col-sm-12 col-md-5 col-lg-5 pt-lg-5 reveal pe-5">
-
-                <h3 class="spaceTopXXL">Diplômes</h3>
-                <div class="indent">
-                    <div class="row mt-lg-5">
-                        <div class="col-5">
-                            <img src="Content/img/brevet_etat_educateur_sportif_1er_degre.png" class="img-fluid" title="Brevet d'Etat Educateur Sportif 1er degré de Cédric Ponseel, coach sportif" />
-                        </div>
-                        <div class="col-7">
-                            <strong>Brevet d'Etat Educateur Sportif 1er degré</strong><br />
-                            Option athlétisme<br />
-                            <a class="btn btn-primary" href="Content/pdf/diplome_be.pdf" role="button" target="_blank" rel="noreferrer">
-                                Voir le diplôme
-                            </a>
-                        </div>
-                    </div>
-
-                    <hr class="my-lg-3" />
-
-                    <div class="row mt-lg-5">
-                        <div class="col-5">
-                            <img src="Content/img/diplome_epgv.png" class="img-fluid" title="Diplôme EPGV - Option Seniors Salle de Cédric Ponseel, coach sportif" />
-                        </div>
-                        <div class="col-7">
-                            <strong>Diplômé EPGV - Option Seniors Salle</strong><br />
-                            Education physique & Gymnastique Volontaire<br />
-                            Animateur fédéral 1er degré<br />
-                            <a class="btn btn-primary" href="Content/pdf/diplome_epgv.pdf" role="button" target="_blank" rel="noreferrer">
-                                Voir le diplôme
-                            </a>
-                        </div>
-                    </div>
-
-                    <hr class="my-lg-3" />
-
-                    <div class="row mt-lg-5">
-                        <div class="col-5">
-                            <img src="Content/img/diplome_ffepgv.png" class="img-fluid" title="Diplôme EPGV - Option Adultes Salle de Cédric Ponseel, coach sportif" />
-                        </div>
-                        <div class="col-7">
-                            <strong>Diplômé EPGV - Option Adultes Salle</strong><br />
-                            Education physique & Gymnastique Volontaire<br />
-                            Animateur fédéral 1er degré<br />
-                            <a class="btn btn-primary" href="Content/pdf/diplome_ffepgv.pdf" role="button" target="_blank" rel="noreferrer">
-                                Voir le diplôme
-                            </a>
-                        </div>
-                    </div>
-
-                    <hr class="my-lg-3" />
-
-                    <div class="row mt-lg-5">
-                        <div class="col-5">
-                            <img src="Content/img/diplome_pilates.jpg" class="img-fluid" title="Diplôme Pilates - Epreuve Matwork I de Cédric Ponseel, coach sportif" />
-                        </div>
-                        <div class="col-7">
-                            <strong>Diplômé Pilates - Epreuve Matwork I</strong><br />
-                            Pilates<br />
-                            Matwork épreuve I<br />
-                            <a class="btn btn-primary" href="Content/pdf/diplome_pilates.pdf" role="button" target="_blank" rel="noreferrer">
-                                Voir le diplôme
-                            </a>
-                        </div>
-                    </div>
-
+        <div class="container-fluid topBanner animated fadeInRight" id="BannerTop">
+            <div class="row">
+                <div class="col-12 px-lg-0">
+                    <img src="Content/img/cedric_ponseel_coach_sportif_marche_nordique.jpg" class="img-fluid" />
+                    <img src="Content/img/cedric_ponseel_coach_sportif_stretching.jpg" class="rounded-circle d-none d-md-block" />
                 </div>
             </div>
         </div>
-    </div>
 
-
-    <div class="container-fluid mt-5 animated fadeInRight">
-        <div class="row">
-            <div class="col-12 mt-lg-5 px-0">
-                <img src="Content/img/cedric_ponseel_coach_sportif_running.jpg" class="img-fluid" />
+        <div class="container animated fadeInLeft">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-sm-5 my-lg-5">
+                    <h2>A propos de Cédric Ponseel, Coach sportif</h2>
+                    <p class="lead">
+                        Depuis toujours, le sport est ma passion: Badminton, handball, basket, tennis de table, athlétisme en compétition... Je mets à votre service mon sérieux et mon expertise sportive dans l'accompagnement sur-mesure.
+                    </p>
+                </div>
             </div>
-        </div>
-    </div>
-
-    <footer class="animated fadeInLeft">
-        <div style="position:relative;">
-            <div class="container py-0 py-lg-5">
-                <div class="row justify-content-between">
-                    <div class="col-6 col-md-4 col-lg-4">
-                        <ul class="list-group list-group-flush" id="Left">
-                            <li class="list-group-item"><h3>Activités</h3></li>
-                            <li class="list-group-item"><a href="">Pilates</a></li>
-                            <li class="list-group-item"><a href="">Marche nordique</a></li>
-                            <li class="list-group-item"><a href="">Renforcement musculaire</a></li>
-                            <li class="list-group-item"><a href="">Course à pied</a></li>
-                        </ul>
+            <div class="row justify-content-md-center">
+                <div class="col-12 col-sm-12 col-md-5 col-lg-5">
+                    <h3 class="mt-sm-3 pt-lg-0 mt-lg-0">Mon parcours</h3>
+                    <div class="indent">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem et tortor consequat id porta nibh.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem et tortor consequat id porta nibh.
+                        </p>
                     </div>
-                    <div class="col-6 col-md-4 col-lg-4 text-end">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><h3>Contact</h3></li>
-                            <li class="list-group-item">
-                                18 avenue du Maréchal Joffre<br />
-                                60260 LAMORLAYE<br />
-                                <i class="bi bi-envelope"></i> <a href="mailto:ponseel.cedric@neuf.fr" title="Ecrire à Cédric Ponseel, coach sportif">ponseel.cedric@neuf.fr</a><br />
-                                <i class="bi bi-telephone"></i> <a href="tel:0625182494" title="Contacter Cédric Ponseel, coach sportif">06 25 18 24 94</a>
-                            </li>
-                            <li class="list-group-item">
-                                <p>
-                                    © 2023 - Cédric Ponseel - Tous droits réservés<br />
-                                    Site internet réalisé par <a href="http://strategikweb.fr/" target="_blank" rel="noreferrer" title="StrategikWeb, conception et réalisation de sites internet et applications web">StrategikWeb.fr</a>
-                                </p>
-                            </li>
-                        </ul>
+                    <h3 class="pt-lg-0 mt-lg-5">Mon expérience</h3>
+                    <div class="indent">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem et tortor consequat id porta nibh.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem et tortor consequat id porta nibh.
+                        </p>
+                    </div>
+                    <h3 class="pt-lg-0 mt-lg-5">Mon accompagnement</h3>
+                    <div class="indent">
+                        <p>
+                            Mes séances de coaching vous garantissent un accompagnement personnalisé et adapté à vos besoins, conditions physiques et objectifs.
+                        </p>
+                        <p>
+                            Mon expérience me permet de vous proposer une préparation sérieuse et adaptée à votre âge, limitant ainsi les blessures potentiellement dûes à un entraînement inapproprié.
+                        </p>
+                        <p>
+                            J'accompagne les sportifs de tous âges et de toutes conditions physiques, tout en m'adaptant à vos disponibilités.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-auto"></div>
+                <div class="col-12 col-sm-12 col-md-5 col-lg-5 pt-lg-5 reveal pe-0 pe-lg-5">
+
+                    <h3 class="spaceTopXXL">Diplômes</h3>
+                    <div class="indent">
+                        <div class="row mt-lg-5">
+                            <div class="col-12 col-lg-5">
+                                <img src="Content/img/brevet_etat_educateur_sportif_1er_degre.png" class="img-fluid" title="Brevet d'Etat Educateur Sportif 1er degré de Cédric Ponseel, coach sportif" />
+                            </div>
+                            <div class="col-12 py-2 py-lg-0 col-lg-7">
+                                <strong>Brevet d'Etat Educateur Sportif 1er degré</strong><br />
+                                Option athlétisme<br />
+                                <a class="btn btn-primary" href="Content/pdf/diplome_be.pdf" role="button" target="_blank" rel="noreferrer">
+                                    Voir le diplôme
+                                </a>
+                            </div>
+                        </div>
+
+                        <hr class="my-lg-3" />
+
+                        <div class="row mt-lg-5">
+                            <div class="col-12 col-lg-5">
+                                <img src="Content/img/diplome_epgv.png" class="img-fluid" title="Diplôme EPGV - Option Seniors Salle de Cédric Ponseel, coach sportif" />
+                            </div>
+                            <div class="col-12 py-2 py-lg-0 col-lg-7">
+                                <strong>Diplômé EPGV - Option Seniors Salle</strong><br />
+                                Education physique & Gymnastique Volontaire<br />
+                                Animateur fédéral 1er degré<br />
+                                <a class="btn btn-primary" href="Content/pdf/diplome_epgv.pdf" role="button" target="_blank" rel="noreferrer">
+                                    Voir le diplôme
+                                </a>
+                            </div>
+                        </div>
+
+                        <hr class="my-lg-3" />
+
+                        <div class="row mt-lg-5">
+                            <div class="col-12 col-lg-5">
+                                <img src="Content/img/diplome_ffepgv.png" class="img-fluid" title="Diplôme EPGV - Option Adultes Salle de Cédric Ponseel, coach sportif" />
+                            </div>
+                            <div class="col-12 py-2 py-lg-0 col-lg-7">
+                                <strong>Diplômé EPGV - Option Adultes Salle</strong><br />
+                                Education physique & Gymnastique Volontaire<br />
+                                Animateur fédéral 1er degré<br />
+                                <a class="btn btn-primary" href="Content/pdf/diplome_ffepgv.pdf" role="button" target="_blank" rel="noreferrer">
+                                    Voir le diplôme
+                                </a>
+                            </div>
+                        </div>
+
+                        <hr class="my-lg-3" />
+
+                        <div class="row mt-lg-5">
+                            <div class="col-12 col-lg-5">
+                                <img src="Content/img/diplome_pilates.jpg" class="img-fluid" title="Diplôme Pilates - Epreuve Matwork I de Cédric Ponseel, coach sportif" />
+                            </div>
+                            <div class="col-12 py-2 py-lg-0 col-lg-7">
+                                <strong>Diplômé Pilates - Epreuve Matwork I</strong><br />
+                                Pilates<br />
+                                Matwork épreuve I<br />
+                                <a class="btn btn-primary" href="Content/pdf/diplome_pilates.pdf" role="button" target="_blank" rel="noreferrer">
+                                    Voir le diplôme
+                                </a>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
 
-    <script src="Scripts/App/ScrollAnimation.js"></script>
-    <script src="Scripts/App/ScrollToTop.js"></script>
+
+        <div class="container-fluid mt-5 animated fadeInRight">
+            <div class="row">
+                <div class="col-12 mt-lg-5 px-0">
+                    <img src="Content/img/cedric_ponseel_coach_sportif_running.jpg" class="img-fluid" />
+                </div>
+            </div>
+        </div>
+
+        <footer class="animated fadeInLeft">
+            <div style="position:relative;">
+                <div class="container py-0 py-lg-5">
+                    <div class="row justify-content-between">
+                        <div class="col-6 col-md-4 col-lg-4">
+                            <ul class="list-group list-group-flush" id="Left">
+                                <li class="list-group-item"><h3>Activités</h3></li>
+                                <li class="list-group-item"><a href="">Pilates</a></li>
+                                <li class="list-group-item"><a href="">Marche nordique</a></li>
+                                <li class="list-group-item"><a href="">Renforcement musculaire</a></li>
+                                <li class="list-group-item"><a href="">Course à pied</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-4 text-end">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><h3>Contact</h3></li>
+                                <li class="list-group-item">
+                                    18 avenue du Maréchal Joffre<br />
+                                    60260 LAMORLAYE<br />
+                                    <i class="bi bi-envelope"></i> <a href="mailto:ponseel.cedric@neuf.fr" title="Ecrire à Cédric Ponseel, coach sportif">ponseel.cedric@neuf.fr</a><br />
+                                    <i class="bi bi-telephone"></i> <a href="tel:0625182494" title="Contacter Cédric Ponseel, coach sportif">06 25 18 24 94</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <p>
+                                        © 2023 - Cédric Ponseel - Tous droits réservés<br />
+                                        Site internet réalisé par <a href="http://strategikweb.fr/" target="_blank" rel="noreferrer" title="StrategikWeb, conception et réalisation de sites internet et applications web">StrategikWeb.fr</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="Scripts/App/ScrollAnimation.js"></script>
+        <script src="Scripts/App/ScrollToTop.js"></script>
 
 
 </body>

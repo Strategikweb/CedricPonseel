@@ -33,9 +33,61 @@
 </head>
 <body>
 
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNav" data-bs-scroll="true" aria-labelledby="offcanvasNavLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavLabel">Cédric Ponseel</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" tabindex="-1"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html" title="Accueil du site internet de Cédric Ponseel, coach sportif"><i class="bi bi-house-door-fill"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="activitessportives.html" title="Les activités sportives proposées par Cédric Ponseel, coach sportif">Activités sportives</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tarifs.html" title="Tarif des activités sportives proposées par Cédric Ponseel, coach sportif">Tarifs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="apropos.html" title="A propos de Cédric Ponseel, coach sportif">A propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="faq.html" title="Les questions posées à Cédric Ponseel, coach sportif">Questions fréquentes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" title="Contacter Cédric Ponseel, coach sportif">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
     <div class="container animated fadeInLeft">
-        <div class="row justify-content-center">
+
+        <!-- Nav button -->
+        <div class="row d-sm-none">
+            <div class="col-12">
+                <button class="btn btn-outline-primary position-fixed" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNav" role="button" id="btnTrigger" aria-controls="offcanvasNav" title="View menu">
+                    <i class="bi bi-list"></i>
+                </button>
+            </div>
+        </div>
+        <!-- End -->
+
+        <!-- Desktop -->
+        <div class="row justify-content-center d-none d-sm-block">
             <div class="col d-flex align-items-center justify-content-center">
+                <h1 class="logotype my-sm-5 my-lg-5 w-40">
+                    Cédric Ponseel
+                    <span class="text-muted">Coach sportif</span>
+                </h1>
+            </div>
+        </div>
+
+        <!-- Mobile -->
+        <div class="row d-sm-none">
+            <div class="col align-self-end pe-0">
                 <h1 class="logotype my-lg-5 w-40">
                     Cédric Ponseel
                     <span class="text-muted">Coach sportif</span>
@@ -43,14 +95,14 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-12 d-flex align-items-center justify-content-center">
+        <div class="row d-none d-sm-block">
+            <div class="col-12 w-100 d-flex align-items-center justify-content-center">
                 <ul class="nav mb-lg-3">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html" title="Accueil du site internet de Cédric Ponseel, coach sportif"><i class="bi bi-house-door-fill"></i></a>
+                        <a class="nav-link active" aria-current="page" href="index.html" title="Accueil du site internet de Cédric Ponseel, coach sportif"><i class="bi bi-house-door-fill"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="activitessportives.html" title="Les activités sportives proposées par Cédric Ponseel, coach sportif">Activités sportives</a>
+                        <a class="nav-link" href="activitessportives.html" title="Les activités sportives proposées par Cédric Ponseel, coach sportif">Activités sportives</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="tarifs.html" title="Tarif des activités sportives proposées par Cédric Ponseel, coach sportif">Tarifs</a>
