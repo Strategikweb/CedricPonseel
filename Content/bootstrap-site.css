@@ -15,6 +15,11 @@
     color: #cc3
 }
 
+.img-fluid {
+    width:100%
+}
+
+
 .nav a:link, a:visited, a:hover {
     color: #2c8b87;
     font-weight: bold;
@@ -110,15 +115,16 @@ li.nav-item:first-child a.nav-link {
 }
 
 .card.lowOpacity {
-    padding:2em;
-    z-index:-50
+    padding: 1em 0.8em;
+    z-index: -50;
+    margin-top: -3em
 }
 
 .card.lowOpacity .list-group-item {
     padding-left: 0
 }
 
-.card.lowOpacity li.list-group-item a {
+.card li.list-group-item a {
     color:#000!important;
     font-weight:bold;
     text-decoration:none;
@@ -132,6 +138,7 @@ li.nav-item:first-child a.nav-link {
 
 .card.lowOpacity.lightColour {
     opacity: 1;
-    background: #CC3
+    background: #CC3;
+    padding: 1em 0.8em;
+    margin-top: -3em!important;
 }
-

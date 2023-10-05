@@ -1018,3 +1018,8 @@ input[type="submit"]:hover, input[type="button"]:hover, button:hover {
     transform: translateY(0);
     opacity: 1;
 }
+
+
+.marginTopNegativeMedium {
+    margin-top:-3em
+}
