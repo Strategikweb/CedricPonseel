@@ -92,19 +92,30 @@ h1.logotype {
     padding-right:0.3em
 }
 
-h1.logotype .text-muted {
-    font-size:0.6em!important; padding-top:0; margin-top:0; line-height:1em; display:block
-}
 
 h1.logotype a:hover {
-    color:#cccc33; 
-    font-size:4em!important
+    color:#cccc33
+}
+
+h1.logotype a, h1.logotype a:hover {
+    font-size: 4em !important
+}
+
+h1.logotype .text-muted {    
+    padding-top: 0;
+    margin-top: 0;
+    line-height: 1em;
+    display: block
+}
+
+h1.logotype .text-muted a, h1.logotype .text-muted a:hover {
+    font-size: 0.6em !important;
 }
 
 h2 {
     font-size: 3em;
-    line-height:1em;
-    color:#2c8b87;
+    line-height: 1em;
+    color: #2c8b87;
     padding-bottom: 0.5em
 }
 
