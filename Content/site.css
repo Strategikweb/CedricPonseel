@@ -98,7 +98,8 @@ h1.logotype a:hover {
 }
 
 h1.logotype a, h1.logotype a:hover {
-    font-size: 4em !important
+    font-size: 1.2em !important;
+    font-weight:normal!important
 }
 
 h1.logotype .text-muted {    
@@ -110,6 +111,7 @@ h1.logotype .text-muted {
 
 h1.logotype .text-muted a, h1.logotype .text-muted a:hover {
     font-size: 0.6em !important;
+    font-weight: normal !important
 }
 
 h2 {
