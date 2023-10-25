@@ -109,7 +109,7 @@ h1.logotype .text-muted {
     display: block
 }
 
-h1.logotype .text-muted a, h1.logotype .text-muted a:hover {
+h1.logotype .text-muted, h1.logotype .text-muted:hover {
     font-size: 0.6em !important;
     font-weight: normal !important
 }
