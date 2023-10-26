@@ -30,3 +30,21 @@ p.caption {
     font-style:italic;
     font-size:0.8em
 }
+
+.btn-primary {
+    padding: 0.5em
+}
+
+.marginTopNegativeMedium {
+    margin-top:3em
+}
+
+.nav-link {
+    padding:0 0.3em!important
+}
+
+h1.logotype {
+    border: none;
+    border-right: 1px solid #999!important;
+    padding-right:3em
+}
