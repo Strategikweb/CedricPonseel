@@ -27,7 +27,8 @@
 }
 
 a.active, a:hover {
-    color: #cc3
+    color: #cc3;
+    font-size: 1em;
 }
 
 
