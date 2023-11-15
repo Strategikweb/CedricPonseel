@@ -99,7 +99,8 @@ h1.logotype a:hover {
 
 h1.logotype a, h1.logotype a:hover {
     font-size: 1.2em !important;
-    font-weight:normal!important
+    font-weight: normal !important;
+    color: #cccc33
 }
 
 h1.logotype .text-muted {    

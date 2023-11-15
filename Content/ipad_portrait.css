@@ -12,3 +12,11 @@
 .nav-link {
     padding: 0 0.3em !important;
 }
+
+#HomeUpMedium {
+    margin-top: 0
+}
+
+.card.lowOpacity.lightColour {
+    margin-top: 0
+}
