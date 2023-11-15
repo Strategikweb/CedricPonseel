@@ -1,9 +1,11 @@
 ﻿h2 { font-size:2.5em }
 
-.lead { font-size:1.3em }
+.lead { font-size:1.3em!important }
 
-img#ThePinkHouseEstoril {
-    width: 30%
+img.topCircle {
+    border: 5px solid #cc3;
+    margin-top: -5em;
+    width: 80%
 }
 
 .card#InBrief, img.upImg { 
@@ -39,12 +41,34 @@ p.caption {
     margin-top:3em
 }
 
+.nav a:link, a:visited, a:hover {
+    font-size: 1.1em;
+}
+
 .nav-link {
-    padding:0 0.3em!important
+    padding: 0 0.4em !important;
+    margin-bottom: 1em;
 }
 
 h1.logotype {
     border: none;
     border-right: 1px solid #999!important;
-    padding-right:3em
+    padding-right:0.5em
+}
+
+h2 {
+    font-size:2em
+}
+
+#BannerTop .rounded-circle {
+    position: absolute;
+    right: 5em;
+    top: 12em;
+    border: 1.5em solid rgba(255, 255, 255, .4);
+    width: 40%;
+}
+
+.infoCircle, .infoCircleFluid {
+    height: 26em;
+    width: 26em;
 }
