@@ -20,13 +20,6 @@ img.blue_flag {
     text-align: center !important
 }
 
-
-#InTheArea hr, #TakeATour hr {
-    visibility: visible;
-    width: 50%;
-    margin: 2em auto
-}
-
 p.caption {
     text-align:center!important;
     font-style:italic;
@@ -43,6 +36,7 @@ p.caption {
 
 .nav a:link, a:visited, a:hover {
     font-size: 1.1em;
+    color:#cc3
 }
 
 .nav-link {
