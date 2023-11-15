@@ -1,0 +1,14 @@
+﻿h1.logotype {    
+    font-size: 3em;
+}
+
+#BannerTop .rounded-circle {
+    right:2em;
+    top: 6em;
+    border: 1em solid rgba(255, 255, 255, .4);
+    width: 32%;
+}
+
+.nav-link {
+    padding: 0 0.3em !important;
+}
