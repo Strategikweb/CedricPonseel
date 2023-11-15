@@ -4,7 +4,7 @@
 
 #BannerTop .rounded-circle {
     right:2em;
-    top: 6em;
+    top: 4em;
     border: 1em solid rgba(255, 255, 255, .4);
     width: 32%;
 }
@@ -18,5 +18,5 @@
 }
 
 .card.lowOpacity.lightColour {
-    margin-top: 0
+    margin-top: 0!important
 }
