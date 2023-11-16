@@ -345,6 +345,30 @@
 
     <script src="Scripts/App/ScrollToTop.js"></script>
     <script src="Scripts/App/ScrollAnimation.js"></script>
+    <script src="Scripts/App/CookieConsent.js"></script>
+
+    <script>
+        $("#nav-item a").click(function () {
+            $('.offcanvas').offcanvas('hide');
+        });
+    </script>
 
 </body>
 </html>
+
+<!-- COOKIE CONSENT -->
+<div class="container-fluid fixed-bottom" id="cookieConsent">
+    <div class="container">
+        <div>
+            <p>
+                <strong>Ce site internet utilise des cookies</strong><br />
+                En poursuivant votre navigation sur ce site, vous acceptez l'utilisation de cookies. Ceux-ci nous permettent de vous offrir une meilleure expérience de navigation et de comprendre comment vous utilisez notre site internet.<br />
+                Vous pouvez supprimer ou bloquer les cookies, mais certaines parties du site ne fonctionneront plus.<br />
+                En utilisant notre site internet, vous acceptez l'utilisation des cookies.<br />
+            </p>
+            <p>
+                <a class="cookieConsentNO btn btn-default" id="LearnMore" title="Je veux en savoir plus">Je veux en savoir plus</a><a class="cookieConsentREFUSE btn btn-default ms-3" id="Refuse" title="Je refuse">Je refuse</a><a class="cookieConsentOK btn btn-primary ms-0 ms-sm-3 ms-md-3 ms-lg-3" id="Consent" title="Oui, j'accepte">Oui, j'accepte</a>
+            </p>
+        </div>
+    </div>
+</div>
